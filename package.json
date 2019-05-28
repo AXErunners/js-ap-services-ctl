@@ -1,6 +1,6 @@
 {
   "name": "@axerunners/ap-services-ctl",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Control AXE Platform services using JavaScript and Docker",
   "engines": {
     "node": ">=8"
@@ -42,7 +42,7 @@
     "grpc-health-check": "^1.6.6",
     "ipfs-http-client": "^29.0.1",
     "jayson": "^2.1.0",
-    "loaxe": "^4.17.11",
+    "lodash": "^4.17.11",
     "mongodb": "^3.1.10"
   },
   "license": "MIT",
