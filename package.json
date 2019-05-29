@@ -32,7 +32,7 @@
     "cids": "^0.6.0"
   },
   "dependencies": {
-    "@axerunners/dapi-client": "^0.4.3",
+    "@axerunners/dapi-client": "^git+https://github.com/AXErunners/dapi-client",
     "@axerunners/axed-rpc": "^1.2.1",
     "aws-sdk": "^2.382.0",
     "axios": "^0.18.0",
