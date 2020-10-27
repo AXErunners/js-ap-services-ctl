@@ -1,6 +1,6 @@
 {
   "name": "@axerunners/ap-services-ctl",
-  "version": "0.7.2",
+  "version": "0.7.4",
   "description": "Control AXE Platform services using JavaScript and Docker",
   "engines": {
     "node": ">=8"
@@ -18,6 +18,7 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
+    "cids": "^0.6.0",
     "dirty-chai": "^2.0.1",
     "dotenv": "^6.2.0",
     "dotenv-expand": "^4.2.0",
@@ -26,14 +27,13 @@
     "eslint-plugin-import": "^2.14.0",
     "mocha": "^5.2.0",
     "mocha-sinon": "^2.1.0",
-    "sinon": "^7.2.2",
-    "sinon-chai": "^3.3.0",
     "multihashes": "^0.4.14",
-    "cids": "^0.6.0"
+    "sinon": "^7.2.2",
+    "sinon-chai": "^3.3.0"
   },
   "dependencies": {
-    "@axerunners/dapi-client": "^git+https://github.com/AXErunners/dapi-client",
     "@axerunners/axed-rpc": "^1.2.1",
+    "@axerunners/dapi-client": "^git+https://github.com/AXErunners/dapi-client",
     "aws-sdk": "^2.382.0",
     "axios": "^0.18.0",
     "cbor": "^4.1.4",
